@@ -1,6 +1,4 @@
 ---
 deployment:
   tasks:
-    - /bin/mkdir -p /home12/kliacustoms/public_html/tada
-    - /bin/cp -R dist/* /home12/kliacustoms/public_html/tada
-    - /bin/cp index.html /home12/kliacustoms/public_html/tada/index_source.html
+    - /bin/cp -R dist/* ../public_html/tada
